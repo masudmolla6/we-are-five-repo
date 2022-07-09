@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+}
+.background-image{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/five.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text h1{
+    margin: 0;
+    text-align: center;
+    font-size: 70px;
+    text-transform: capitalize;
+    color: aqua;
+    padding-top: 70px;
+
+}
+.flexible-content{
+    display: flex;
+
+}
+.half-width{
+    text-transform: capitalize;
+    margin-top: 50px;
+    width: 50%;
+}
+.half-width img{
+    width: 80%;
+    padding-left: 10px;
+}
+.half-width h1{
+    padding-left: 50px;
+    font-size: 70px;
+}
+.orange{
+    color: orange;
+}
+.half-width p{
+    padding-left: 50px;font-size: 30px;
+}
+.profile{
+    text-decoration: none;
+    background: linear-gradient(rgb(0, 255, 251),rgb(71, 255, 135));
+    padding: 10px 30px;
+    color: black;
+    border-radius: 100px;
+    margin-left: 200px;
+    font-size: 20px;
+}
+footer{
+    background: black;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: rgb(16, 214, 218);
+}
+footer h1{
+    padding-top: 40px;
+}
